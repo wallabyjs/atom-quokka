@@ -1,0 +1,30 @@
+{
+  "name": "atom-quokka",
+  "main": "./lib/quokka",
+  "version": "1.0.0",
+  "description": "Live Scratchpad for JavaScript",
+  "keywords": [
+    "wallaby.js",
+    "code coverage",
+    "ES6",
+    "ES7",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "repository": "https://github.com/wallabyjs/atom-quokka",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "quokka-atom": "^1.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "statusBar"
+      }
+    }
+  }
+}

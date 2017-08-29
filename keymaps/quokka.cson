@@ -1,0 +1,24 @@
+'.platform-darwin atom-workspace':
+  'cmd-k o': 'quokka:toggle-output'
+  'cmd-k f': 'quokka:focus-output'
+  'cmd-k j': 'quokka:create-javascript-file'
+  'cmd-k t': 'quokka:create-typescript-file'
+
+'.platform-darwin atom-text-editor':
+  'cmd-k q': 'quokka:make-quokka-from-existing-file'
+  'cmd-k s': 'quokka:stop-current'
+  'cmd-k i': 'quokka:install-missing-package-only-for-quokka-file'
+
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+  'ctrl-k o': 'quokka:toggle-output'
+  'ctrl-k f': 'quokka:focus-output'
+  'ctrl-k j': 'quokka:create-javascript-file'
+  'ctrl-k t': 'quokka:create-typescript-file'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-k q': 'quokka:make-quokka-from-existing-file'
+  'ctrl-k s': 'quokka:stop-current'
+  'ctrl-k i': 'quokka:install-missing-package-only-for-quokka-file'
+
+'.quokka-results-view':
+  'escape': 'tool-panel:unfocus'

@@ -1,0 +1,53 @@
+@import "quokka-vars";
+
+.atom-text-editor, atom-text-editor {
+
+  .line {
+    &.qlc::after {
+      color: @text-color-subtle;
+    }
+    &.qle::after {
+      color: @text-color-error;
+    }
+  }
+
+  .quokka-cov {
+    width: 0.7em;
+    height: 0.7em !important;
+    border-radius: 2px;
+    left: 0.15em;
+    margin-top: 0.3em;
+    cursor: pointer;
+  }
+
+  .quokka-cov-1 {
+    .quokka-cov;
+    background-color: @notCovered;
+  }
+
+  .quokka-cov-2 {
+    .quokka-cov;
+    background-color: @fullyCovered;
+  }
+
+  .quokka-cov-3 {
+    .quokka-cov;
+    background-color: @partiallyCovered;
+  }
+
+  .quokka-cov-4 {
+    .quokka-cov;
+    background-color: @errorSource;
+  }
+
+  .quokka-cov-5 {
+    .quokka-cov;
+    background-color: @errorPath;
+  }
+
+  .highlight {
+    &.uncovered .region {
+      border: @errorSource 1px solid;
+    }
+  }
+}
