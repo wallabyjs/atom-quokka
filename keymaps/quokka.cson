@@ -8,6 +8,7 @@
   'cmd-k q': 'quokka:make-quokka-from-existing-file'
   'cmd-k s': 'quokka:stop-current'
   'cmd-k i': 'quokka:install-missing-package-only-for-quokka-file'
+  'cmd-k v': 'quokka:show-value'
 
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
   'ctrl-k o': 'quokka:toggle-output'
@@ -19,6 +20,7 @@
   'ctrl-k q': 'quokka:make-quokka-from-existing-file'
   'ctrl-k s': 'quokka:stop-current'
   'ctrl-k i': 'quokka:install-missing-package-only-for-quokka-file'
+  'ctrl-k v': 'quokka:show-value'
 
 '.quokka-results-view':
   'escape': 'tool-panel:unfocus'
