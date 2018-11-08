@@ -11,7 +11,7 @@
     "JavaScript",
     "TypeScript"
   ],
-  "repository": "https://github.com/wallabyjs/atom-quokka",
+  "repository": "ssh://git@github.com/wallabyjs/atom-quokka",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
