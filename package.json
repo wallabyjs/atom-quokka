@@ -1,7 +1,7 @@
 {
   "name": "atom-quokka",
   "main": "./lib/quokka",
-  "version": "1.0.137",
+  "version": "1.0.138",
   "description": "Live Scratchpad for JavaScript",
   "keywords": [
     "wallaby.js",
