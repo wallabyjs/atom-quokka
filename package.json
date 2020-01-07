@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.5",
-    "quokka-atom": "1.0.181"
+    "quokka-atom": "1.0.182"
   },
   "consumedServices": {
     "status-bar": {
